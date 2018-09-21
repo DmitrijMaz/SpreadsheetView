@@ -45,6 +45,7 @@ final class Border: UIView {
         isUserInteractionEnabled = false
         backgroundColor = .clear
         layer.zPosition = 1000
+        contentMode = .redraw
     }
 
     required init?(coder aDecoder: NSCoder) {
